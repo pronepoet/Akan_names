@@ -24,6 +24,7 @@ function calculate(){
 
 // female = ["Akosua","Adwoa","Abenaa","Akua","Yaa","Afua","Ama"]
 // male =  ["Kwasi","Kwadwo","Kwabena","Kwaku","Yaw","Kofi","Kwame"]
-function name () {
-
+function getName () {
+let index = calculate();
+let female = ["Akosua","Adwoa","Abenaa","Akua","Yaa","Afua","Ama"];
 }
