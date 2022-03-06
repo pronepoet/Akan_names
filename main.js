@@ -23,7 +23,7 @@ function calculate(){
 } 
 
 // female = ["Akosua","Adwoa","Abenaa","Akua","Yaa","Afua","Ama"]
-male =  ["Kwasi","Kwadwo","Kwabena","Kwaku","Yaw","Kofi","Kwame"]
+// male =  ["Kwasi","Kwadwo","Kwabena","Kwaku","Yaw","Kofi","Kwame"]
 function name () {
 
 }
