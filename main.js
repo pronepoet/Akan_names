@@ -5,7 +5,7 @@ let button = document.getElementById("get_name");
 
 
 
-function get(){
+function calculate(){
  
     let CC = year.value.slice(0,2);
     let YY = year.value.substring(2);
@@ -18,6 +18,12 @@ function get(){
   button.addEventListener('click', function(e){
        e.preventDefault();
 
-       get();
+       calculate();
   }) 
 } 
+
+// female = ["Akosua","Adwoa","Abenaa","Akua","Yaa","Afua","Ama"]
+male =  ["Kwasi","Kwadwo","Kwabena","Kwaku","Yaw","Kofi","Kwame"]
+function name () {
+
+}
