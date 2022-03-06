@@ -1,8 +1,10 @@
 
-let CC = document.getElementById(date);
+let date = document.getElementById(date)
+let month = document.getElementById(month)
+let year = document.getElementById(year)
 
-let YY = document.getElementById(year);
 
-let MM = document.getElementById(month)
 
-d = ( ( (CC/4) -2*CC-1) + ((5*YY/4) ) + ((26*(MM+1)/10)) + DD ) mod 7
+function get(){
+    d = ( ( (CC/4) -2*CC-1) + ((5*YY/4) ) + ((26*(MM+1)/10)) + DD ) % 7
+} 
