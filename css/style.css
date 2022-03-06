@@ -1,0 +1,15 @@
+aside {
+    float:left;
+    width:30%;
+
+}
+
+article{
+    float:left;
+    padding:20px;
+    width: 70%;
+   
+}
+img{
+    width:100%;
+}
