@@ -14,3 +14,11 @@ article {
 img {
     width: 100%;
 }
+
+footer{
+    position:fixed;
+    bottom:0;
+    background-color: dimgrey;
+    width:100%;
+    padding:20px;
+}
