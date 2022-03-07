@@ -13,18 +13,31 @@ function calculate(){
     let DD = date.value;
    let d = ( ( (CC/4) -2*CC-1) + ((5*YY/4) ) + ((26*(MM+1)/10)) + DD ) % 7
 
-    console.log(d.toFixed())
+return d.toFixed();
 
-  button.addEventListener('click', function(e){
-       e.preventDefault();
-
-       calculate();
-  }) 
+  
 } 
 
 // female = ["Akosua","Adwoa","Abenaa","Akua","Yaa","Afua","Ama"]
 // male =  ["Kwasi","Kwadwo","Kwabena","Kwaku","Yaw","Kofi","Kwame"]
 function getName () {
+    let gender = document.getElementById("genderio")
+    console.log(gender.value)
 let index = calculate();
-let female = ["Akosua","Adwoa","Abenaa","Akua","Yaa","Afua","Ama"];
+let female = ["Akosua","Adwoa","Abenaa","Akua","Yaa","Afua","Ama"]
+let male =  ["Kwasi","Kwadwo","Kwabena","Kwaku","Yaw","Kofi","Kwame"]
+ if (gender.value == "Female") {
+     console.log(female[index])
+ }
+ else{
+     console.log(male[index])
+ }
 }
+
+
+
+button.addEventListener('click', function(e){
+    e.preventDefault();
+
+ getName();
+}) 
