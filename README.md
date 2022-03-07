@@ -3,6 +3,7 @@ This a is the second IP at Moringa School consisting of a web application that t
 ![screenshot](images/screen1.png)
 ## Technologies Used
 - HTML & CSS (Bootstrap)
+- Javascript
 - FontAwesome Icons
 
 ##### Requirements
@@ -15,3 +16,5 @@ none
 [here](https://pronepoet.github.io/Akan_names/)
 ### License
 MIT Licence
+### Author
+Ochieng Okeyo Phillip
