@@ -15,24 +15,27 @@ img {
     width: 100%;
 }
 
-footer{
-    position:fixed;
-    bottom:0;
+footer {
+    position: fixed;
+    bottom: 0;
     background-color: dimgrey;
-    width:100%;
-    padding:20px;
+    width: 100%;
+    padding: 20px;
     text-align: center;
-    
+
 }
-ul{
+
+ul {
     display: inline-flex;
     list-style: none;
-    
+
 }
-li{
- padding-right: 50px;
-    
+
+li {
+    padding-right: 50px;
+
 }
-li:hover{
-    color:chartreuse;
+
+li:hover {
+    color: chartreuse;
 }
