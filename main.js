@@ -21,16 +21,19 @@ return d.toFixed();
 // female = ["Akosua","Adwoa","Abenaa","Akua","Yaa","Afua","Ama"]
 // male =  ["Kwasi","Kwadwo","Kwabena","Kwaku","Yaw","Kofi","Kwame"]
 function getName () {
+    let display = document.getElementById("waria");
     let gender = document.getElementById("genderio")
     console.log(gender.value)
 let index = calculate();
 let female = ["Akosua","Adwoa","Abenaa","Akua","Yaa","Afua","Ama"]
 let male =  ["Kwasi","Kwadwo","Kwabena","Kwaku","Yaw","Kofi","Kwame"]
  if (gender.value == "Female") {
-     console.log(female[index])
+     let femName = female[index]
+     display.innerHTML = `<h1>Your name is ${femName}</h1>`;
  }
- else{
-     console.log(male[index])
+ else if (gender.value == "Male"){
+    let maleName = male[index] 
+    display.innerHTML = `<h1>Your name is ${maleName}</h1>`;
  }
 }
 
