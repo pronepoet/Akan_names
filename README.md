@@ -12,6 +12,6 @@ N/A
 ## Known Bugs
 none
 ##### Link to Live Site : 
-[https://pronepoet.github.io/Akan_names/]
+[here](https://pronepoet.github.io/Akan_names/)
 ### License
 MIT Licence
