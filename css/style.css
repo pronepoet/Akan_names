@@ -15,27 +15,24 @@ img {
     width: 100%;
 }
 
-footer {
-    position: fixed;
-    bottom: 0;
-    background-color: dimgrey;
-    width: 100%;
-    padding: 20px;
-    text-align: center;
-
-}
 
 ul {
     display: inline-flex;
     list-style: none;
+ 
+   
 
 }
 
 li {
     padding-right: 50px;
-
+  
 }
 
-li:hover {
+
+a:hover {
     color: chartreuse;
+}
+a:visited {
+    color: red;;
 }
