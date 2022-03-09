@@ -1,7 +1,16 @@
+body {
+    background-image: linear-gradient(rgb(160, 185, 149), rgb(168, 168, 122), rgb(129, 137, 182));
+
+}
+
 aside {
     float: left;
     width: 30%;
 
+}
+
+.navbar-brand {
+    color: antiquewhite;
 }
 
 article {
@@ -13,26 +22,29 @@ article {
 
 img {
     width: 100%;
+    border-radius: 50%;
 }
 
 
 ul {
     display: inline-flex;
     list-style: none;
- 
-   
+
+
 
 }
 
 li {
     padding-right: 50px;
-  
+
 }
 
 
 a:hover {
     color: chartreuse;
 }
+
 a:visited {
-    color: red;;
+    color: red;
+    ;
 }
