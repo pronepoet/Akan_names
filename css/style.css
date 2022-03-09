@@ -1,5 +1,5 @@
 body {
-    background-image: linear-gradient(rgb(160, 185, 149), rgb(168, 168, 122), rgb(129, 137, 182));
+    background-image: linear-gradient(rgb(236, 158, 155), rgb(241, 241, 139), rgb(180, 240, 165));
 
 }
 
@@ -20,15 +20,53 @@ article {
 
 }
 
-img {
+#polar {
+    position: relative;
     width: 100%;
+}
+
+.image {
+    display: block;
+    width: 100%;
+    height: auto;
     border-radius: 50%;
+}
+
+.overlay {
+    position: absolute;
+    bottom: 0;
+    left: 100%;
+    right: 0;
+    background-color: rgb(47, 45, 45);
+    overflow: hidden;
+    width: 0;
+    height: 100%;
+    transition: .5s ease;
+    border-radius: 50%;
+}
+
+.container:hover .overlay {
+    width: 100%;
+    left: 0;
+}
+
+.text {
+    white-space: nowrap;
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    overflow: hidden;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
 }
 
 
 ul {
     display: inline-flex;
     list-style: none;
+    margin-left: 20%;
 
 
 
